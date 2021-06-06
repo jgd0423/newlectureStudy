@@ -2,6 +2,7 @@ package part3.ex6.인터페이스;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.lang.reflect.Constructor;
 import java.util.Scanner;
 
 public class Program {
@@ -17,6 +18,9 @@ public class Program {
 
         A a = new A();
         X x = (X) clazz.newInstance();
+//        Constructor<?> constructor = clazz.getConstructor(null);
+//        X x = (X) constructor.newInstance();
+        
         a.setX(x);
         a.print();
     }
