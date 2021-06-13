@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/hi")
 public class Nana extends HttpServlet {
+
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setCharacterEncoding("UTF-8");
