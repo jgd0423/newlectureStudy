@@ -12,8 +12,14 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/hi")
 public class Nana extends HttpServlet {
     @Override
-    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        PrintWriter out = resp.getWriter();
-        out.println("Hello");
+    protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html; charset=UTF-8");
+
+        PrintWriter out = response.getWriter();
+
+        for (int i = 0; i< 100; i++) {
+            out.println((i + 1) + ": 안녕 Hello Servlet <br>");
+        }
     }
 }
