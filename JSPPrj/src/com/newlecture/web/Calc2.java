@@ -2,6 +2,7 @@ package com.newlecture.web;
 
 import java.io.IOException;
 
+import javax.servlet.ServletContext;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -14,29 +15,31 @@ public class Calc2 extends HttpServlet {
     protected void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html; UTF-8");
+        ServletContext application = request.getServletContext();
 
-        String x_ = request.getParameter("x");
-        String y_ = request.getParameter("y");
+        String v_ = request.getParameter("v");
         String op = request.getParameter("operator");
 
-        int x = 0;
-        int y = 0;
-
-        if (!x_.equals("")) {
-            x = Integer.parseInt(x_);
-        }
-        if (!y_.equals("")) {
-            y = Integer.parseInt(y_);
+        int v = 0;
+        if (!v_.equals("")) {
+            v = Integer.parseInt(v_);
         }
 
-        int result = 0;
+        if (op.equals("=")) {
+            int x = (int) application.getAttribute("value");
+            int y = v;
+            String operator = (String) application.getAttribute("op");
+            int result = 0;
 
-        if (op.equals("덧셈")) {
-            result = x + y;
+            if (operator.equals("+")) {
+                result = x + y;
+            } else {
+                result = x - y;
+            }
+            response.getWriter().printf("result is %d\n", result);
         } else {
-            result = x - y;
+            application.setAttribute("value", v);
+            application.setAttribute("op", op);
         }
-
-        response.getWriter().printf("result is %d\n", result);
     }
 }
