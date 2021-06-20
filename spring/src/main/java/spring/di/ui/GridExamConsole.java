@@ -9,6 +9,8 @@ public class GridExamConsole implements ExamConsole {
         this.exam = exam;
     }
 
+    public GridExamConsole() {}
+
     @Override
     public void print() {
         System.out.println("┌─────────┬─────────┐");
@@ -16,5 +18,10 @@ public class GridExamConsole implements ExamConsole {
         System.out.println("├─────────┼─────────┤");
         System.out.printf("│   %3d   │  %3.2f   │\n", exam.total(), exam.avg());
         System.out.println("└─────────┴─────────┘");
+    }
+
+    @Override
+    public void setExam(Exam exam) {
+        this.exam = exam;
     }
 }
