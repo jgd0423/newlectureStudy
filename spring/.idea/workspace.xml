@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bff1634b-6080-4b2c-a428-1f2dcf725284" name="Default Changelist" comment="스프링 프레임워크 강의 11강 - 콜렉션 생성과 목록 DI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/entity/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/entity/NewlecExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/advice/LogAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/aop/setting.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/aop/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/aop/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/aop/entity/NewlecExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/aop/entity/NewlecExam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/spring/aop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/spring/aop" />
       <recent name="C:\Users\jgd04\Documents\newlectureStudy\spring\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -128,7 +130,7 @@
       <updated>1624181910038</updated>
       <workItem from="1624181911538" duration="1465000" />
       <workItem from="1624183407229" duration="2903000" />
-      <workItem from="1627643584216" duration="16207000" />
+      <workItem from="1627643584216" duration="19580000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 프레임워크 강의 11강 - 콜렉션 생성과 목록 DI">
       <created>1627713383679</created>
