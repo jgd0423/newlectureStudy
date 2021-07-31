@@ -104,7 +104,7 @@
       <updated>1624181910038</updated>
       <workItem from="1624181911538" duration="1465000" />
       <workItem from="1624183407229" duration="2903000" />
-      <workItem from="1627643584216" duration="7746000" />
+      <workItem from="1627643584216" duration="8884000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 프레임워크 강의 11강 - 콜렉션 생성과 목록 DI">
       <created>1627713383679</created>
@@ -142,6 +142,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedClassVersionError" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.NoUniqueBeanDefinitionException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

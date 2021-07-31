@@ -20,8 +20,8 @@ public class Program {
         console.setExam(exam);
         */
         ApplicationContext context = new ClassPathXmlApplicationContext("setting.xml");
-        Exam exam = context.getBean(Exam.class);
-        System.out.println(exam.toString());
+//        Exam exam = context.getBean(Exam.class);
+//        System.out.println(exam.toString());
 
         ExamConsole console = (ExamConsole) context.getBean("console");
         // ExamConsole console = context.getBean(ExamConsole.class);
