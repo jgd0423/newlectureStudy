@@ -12,7 +12,8 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:annotation-config />
+    <context:component-scan base-package="spring.di" />
+<!--    <context:annotation-config />-->
 <!--    <bean id="exam1" class="spring.di.entity.NewlecExam" p:kor="10" p:eng="10" />-->
 <!--    <bean id="exam2" class="spring.di.entity.NewlecExam" p:kor="20" p:eng="20" />-->
 <!--    <bean id="exam" class="spring.di.entity.NewlecExam">-->
@@ -21,9 +22,9 @@
 <!--        <constructor-arg name="math" value="30" />-->
 <!--        <constructor-arg name="com" value="40" />-->
 <!--    </bean>-->
-    <bean id="console" class="spring.di.ui.InlineExamConsole">
+<!--    <bean id="console" class="spring.di.ui.InlineExamConsole">-->
 <!--        <property name="exam" ref="exam" />-->
-    </bean>
+<!--    </bean>-->
 
 <!--    <util:list id="exams" list-class="java.util.ArrayList">-->
 <!--        <bean class="spring.di.entity.NewlecExam" p:kor="2" p:eng="4" />-->

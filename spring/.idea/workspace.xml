@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bff1634b-6080-4b2c-a428-1f2dcf725284" name="Default Changelist" comment="스프링 프레임워크 강의 11강 - 콜렉션 생성과 목록 DI" />
+    <list default="true" id="bff1634b-6080-4b2c-a428-1f2dcf725284" name="Default Changelist" comment="스프링 프레임워크 강의 11강 - 콜렉션 생성과 목록 DI">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/di/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/di/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/di/entity/NewlecExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/di/entity/NewlecExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/di/ui/InlineExamConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/di/ui/InlineExamConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/setting.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +105,7 @@
       <updated>1624181910038</updated>
       <workItem from="1624181911538" duration="1465000" />
       <workItem from="1624183407229" duration="2903000" />
-      <workItem from="1627643584216" duration="9413000" />
+      <workItem from="1627643584216" duration="12128000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 프레임워크 강의 11강 - 콜렉션 생성과 목록 DI">
       <created>1627713383679</created>
